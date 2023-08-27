@@ -2,7 +2,7 @@
 import psycopg
 
 # Connect to an existing database
-with psycopg.connect("dbname=postgres user=postgres host=localhost port=5432 password=080199") as conn:
+with psycopg.connect("dbname=postgres user=postgres host=localhost port=5432 password=umid8505") as conn:
 
     conn.autocommit = True
 
