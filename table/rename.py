@@ -10,9 +10,9 @@ with psycopg.connect("dbname=postgres user=postgres host=localhost port=5432 pas
     with conn.cursor() as cur:
 
         # query to create a database
-        sql = "CREATE DATABASE my_db"
+        sql = "ALTER TABLE my_table RENAME TO your_table"
         
 
         # executing above query
         cur.execute(sql)
-        print("Database has been created successfully !!")
+        print("Rename table!!")
